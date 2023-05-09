@@ -6,7 +6,7 @@ const TodoItem =(props)=>{
 
 <li>
 
-    <input type='checkbox' checked={props.completeTodo}/>
+    <input type='checkbox' checked={props.completeTodo} onClick={()=>props.buttonImFertigHandler(props.idTodo)}/>
     {props.titleTodo}
     <button onClick={()=> props.buttonListenHandlerTodo(props.idTodo)}>
         ❌
