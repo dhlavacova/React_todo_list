@@ -1,19 +1,22 @@
-ul {
-    list-style: none;
-    padding: 0;
+.ul {
+  list-style: none;
+  padding: 0;
 
 
-
-li {
+  li {
     cursor: pointer;
     padding: 5px;
-    background-color: white;
+
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     width: 40rem;
     height: 3rem;
-    background-color:gray;
+    background-color: gray;
 
     border-radius: 5px;
-}}
+  }
+}
+.ichBinClasse{
+  font-size:5rem
+}

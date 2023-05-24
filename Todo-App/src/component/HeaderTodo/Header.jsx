@@ -1,8 +1,14 @@
 const Header=()=>{
+    const header=
+        {
+        color:'black',
+            textAlign:'center'
+        }
+
     return(
-        <header>
+        <header style={header}>
             <h1>
-                todo
+                My todolist :)
             </h1>
             <p>Items werden in localStorage gespeichert</p>
         </header>

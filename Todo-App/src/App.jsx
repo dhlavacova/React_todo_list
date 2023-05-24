@@ -1,4 +1,5 @@
-import TodoAp from "./component/TodoAp.jsx";
+import TodoAp from "./component/TodoApp/TodoAp.jsx";
+//import './styles/app.scss'
 import './App.scss'
 const App=()=>{
     return (
